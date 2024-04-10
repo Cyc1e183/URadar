@@ -1,0 +1,34 @@
+POST /action/avatar/upload HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Length: 4973
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6wFV5UyfcGdD6zb3
+Cookie: Elgg=2lljq9rm53pf8kmhg3br96g4c1
+Host: 172.16.245.142
+Origin: http://172.16.245.142
+Pragma: no-cache
+Referer: http://172.16.245.142/avatar/edit/admin
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+
+------WebKitFormBoundary6wFV5UyfcGdD6zb3
+Content-Disposition: form-data; name="__elgg_token"
+
+dpF5scazbPBK4VvKdljyWw
+------WebKitFormBoundary6wFV5UyfcGdD6zb3
+Content-Disposition: form-data; name="__elgg_ts"
+
+1667450181
+------WebKitFormBoundary6wFV5UyfcGdD6zb3
+Content-Disposition: form-data; name="avatar"; filename="prettyCat.jpg"
+Content-Type: image/jpeg
+
+@file
+------WebKitFormBoundary6wFV5UyfcGdD6zb3
+Content-Disposition: form-data; name="guid"
+
+36
+------WebKitFormBoundary6wFV5UyfcGdD6zb3--
